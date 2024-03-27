@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Simon Game</title>
+        <link rel="StyleSheet" href="stylesheet.css.css">
+        <script src="script.js.js"></script>
+    </head>
+
+    <body>
+        <h1>The Simon Memory Game</h1>
+
+        <div class="gamecontainer">
+            <div id="centrecircle">
+                <button class="butts" id="green" onclick="buttonPress(1)"></button>
+                <button class="butts" id="red" onclick="buttonPress(2)"></button>
+                <button class="butts" id="yellow" onclick="buttonPress(3)"></button>
+                <button class="butts" id="blue" onclick="buttonPress(4)"></button>
+                <div class="icons">
+                    <div class="scores" id="highscore">0</div>
+                    <button type="button" onclick="startButtonPress()" class="scores" id="startbutton">START</button>
+                    <div class="scores" id="lastscore">0</div>
+                    <div id="actionindicator"></div>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
